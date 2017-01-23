@@ -19,6 +19,7 @@ import org.json.JSONObject;
 import com.orion.config.Config;
 
 public class Batch {
+	//Ngọc hải
 	public int InsertBatch(int iProductId, String sBatchName, String sBatchManDate, String sBatchExpDate, String sBatchPromotion, String sBatchWarning, String sBatchDetail, String sBatchManual, String sBatchPrivate, String iUserEmail){
 		String sSql = "insert into CHECK2_BATCH "
 				+ "(BATCH_ID, BATCH_NAME, BATCH_DETAIL, BATCH_MANUAL, MAN_DATE, EXP_DATE, PRODUCT_ID, CREATED_BY, CREATED_DATE, IS_DELETE, BATCH_WARNING, BATCH_PROMOTION) values "
